@@ -10,10 +10,11 @@
 </head>
 <body>
 <?php 
-      	$servername='localhost';
-          $dbname='port';
-          $username='root';
-          $password='';
+      	$servername='mysql-frize.alwaysdata.net';
+          $dbname='frize_bdd_iriad';
+          $username='frize_iriad';
+          $password='K?50GD#EPNIJI3x1
+';
         $email= strip_tags($_POST["email"]);
         $nom= strip_tags($_POST["Nom"]);
         $descr= strip_tags($_POST["descr"]);
